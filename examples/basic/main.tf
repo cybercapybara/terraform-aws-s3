@@ -22,7 +22,7 @@ provider "aws" {
 module "s3" {
   source = "../.."
 
-  bucket             = "example-bucket-cybercapybara-0001"
+  bucket             = "example-bucket-moveeeax-0001"
   versioning_enabled = true
 
   tags = {

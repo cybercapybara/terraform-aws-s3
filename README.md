@@ -9,7 +9,7 @@ default.
 
 ```hcl
 module "s3" {
-  source = "github.com/cybercapybara/terraform-aws-s3"
+  source = "github.com/moveeeax/terraform-aws-s3"
 
   bucket             = "prod-app-assets"
   versioning_enabled = true
